@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N.S.U Jamshedpur</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo4.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMemu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMemu()"></i>
+
+        </nav>
+        <h1>Our Certificate & Online Programs For 2022</h1>
+    </section>
+    <!------------Blog Page Content------------->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="image/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2022</h2>
+                <p>Netaji Subhas University has collaborated with upGrad Campus to empower its students with Digital
+                    Marketing and Business Analytics Certification Program. Netaji Subhas University has always been at
+                    the forefront ensuring the successful holistic career of its students. Partnering with upGrad campus
+                    will pave the way to secure this goal more precisely About the program details:
+
+                </p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+
+                    </form>
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>
+                        <h5>Digital Marketing</h5>
+                        <p>At upGrad Campus, we will help you gain a strong understanding of SEO(Search Engine
+                            Optimization), SEM(Search Engine Marketing), Marketing analysis, and applying optimization
+                            techniques to create Marketing Campaigns needed to excel in Digital Marketing. In this
+                            program, you will learn to create brand awareness via digital promotions and tools. You will
+                            also learn how to use different channels for promoting business interests by leveraging
+                            digital platforms.</p>
+                    </span>
+
+                </div>
+                <div>
+                    <span>
+                        <h5>Business Analytics</h5>
+                        <p>Business Analytics is the structured and incremental analysis of a company's statistical data
+                            to gain insights. Most of the world's top corporations employ business analytics, and it's
+                            especially valuable in the Startups, where they are eager to take advantage of any
+                            data-driven advantages that may help them break into the mass market. This program will
+                            enable you to create pipelines for solving real-world business problems, performing
+                            exploratory data analysis, and applying inferential statistics and predictive analytics.</p>
+                    </span>
+
+
+                </div>
+
+
+    </section>
+
+
+
+
+    <!-----JavaScript for Toogle Menu--->
+    <script>
+
+
+        var navLinks = document.getElementById("navLinks");
+        function showMemu() {
+            navLinks.style.right = "0";
+        }
+        function hideMemu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+
+    <!-----Footer  ----->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We provide quality Education with an honarable Management Team. Our faculties are high qualified and
+            experianced in their subjects.
+            <br>Netaji Subash University has all the facilitates.
+        </p>
+        <div class="icons">
+            <a href="https://www.facebook.com/nsu.jamshedpur/" class="fa-brands fa-facebook"></a>
+
+            <a href="https://youtu.be/6Z-L8GEmREg" class="fa-brands fa-youtube"></a>
+            <a href="https://www.instagram.com/nsujamshedpur/?hl=en" class="fa-brands fa-instagram"></a>
+        </div>
+        <div class="heart">
+            <p>Made by <i class="fa-solid fa-heart"></i> Shah Faisal</p>
+        </div>
+
+
+    </section>
+
+
+</body>
+
+</html>

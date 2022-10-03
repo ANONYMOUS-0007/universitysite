@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N.S.U Jamshedpur</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo4.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMemu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMemu()"></i>
+
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <!----------- Course  ----------->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Under Graduate Courses</h3>
+                <h6> B. Pharm</h6>
+                <h6>B. Sc In Mathematics</h6>
+                <h6>B. Sc In Zoology</h6>
+                <h6>B. Sc In Agriculture</h6>
+                <h6>B. Sc In Botany</h6>
+                <h6>B. Sc In Chemistry</h6>
+                <h6>B. Sc In Physics</h6>
+                <h6>B.A</h6>
+                <h6> B.Com</h6>
+                <h6>B.Ed</h6>
+                <h6>B.Sc Biotechnology</h6>
+                <h6>B.Sc In Hotel Management</h6>
+                <h6>B.Sc Nursing</h6>
+                <h6>BA In Journalism & Mass Communication</h6>
+                <h6>Bachelor Of Fashion Design</h6>
+                <h6>Bachelor Of Interior Design</h6>
+                <h6>BBA</h6>
+                <h6>BBA LL.B(Hons.)</h6>
+                <h6>BCA</h6>
+                <h6>LL.B</h6>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduate Courses</h3>
+                <h6> LLM (Latin Legum Magister)</h6>
+                <h6> M. A In Education</h6>
+                <h6> M. Sc In Botany</h6>
+                <h6>M. Sc In Chemistry</h6>
+                <h6> M. Sc In Mathematics</h6>
+                <h6> M. Sc In Physics</h6>
+                <h6> M. Sc In Zoology</h6>
+                <h6> M.A</h6>
+                <h6> M.Com</h6>
+                <h6> MA In Mass Communication & Journalism</h6>
+                <h6> MBA</h6>
+                <h6>MCA</h6>
+            </div>
+            <div class="course-col">
+                <h3> Diploma Courses</h3>
+                <h6> ANM (AUXILIARY NURSE AND MIDWIFE)</h6>
+                <h6> D. Pharm</h6>
+                <h6> Diploma In Civil Engineering</h6>
+                <h6> Diploma In Computer Science & Engineering</h6>
+                <h6>Diploma In Electrical & Electronics Engineering</h6>
+                <h6> Diploma In Mechanical Engineering</h6>
+                <h6> GNM (GENERAL NURSING AND MIDWIFERY)</h6>
+                <h6> POLYTECHNIC</h6>
+                <h6> CERTIFICATE COURSE IN DATA SCIENCE</h6>
+                <h6>BBA & B.Com With US CMA</h6>
+                <h6> Upgrad Campus</h6>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!------  Facilities ----->
+
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="image/library1.png" alt="">
+                <h3>Big Library</h3>
+                <p>N.S.U has a Big Library.Here you can find all types of Books related to your different types of
+                    Courses.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="image/ground.png" alt="">
+                <h3>Large Play Ground</h3>
+                <p>N.S.U has a large Play Ground for Sports and other activities. </p>
+
+            </div>
+            <div class="facilities-col">
+                <img src="image/cafe.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>N.S.U has a well Maintained and Healthy Food Cafe.</p>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-----JavaScript for Toogle Menu--->
+    <script>
+
+
+        var navLinks = document.getElementById("navLinks");
+        function showMemu() {
+            navLinks.style.right = "0";
+        }
+        function hideMemu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+
+    <!-----Footer  ----->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We provide quality Education with an honarable Management Team. Our faculties are high qualified and
+            experianced in their subjects.
+            <br>Netaji Subash University has all the facilitates.
+        </p>
+        <div class="icons">
+            <a href="https://www.facebook.com/nsu.jamshedpur/" class="fa-brands fa-facebook"></a>
+
+            <a href="https://youtu.be/6Z-L8GEmREg" class="fa-brands fa-youtube"></a>
+            <a href="https://www.instagram.com/nsujamshedpur/?hl=en" class="fa-brands fa-instagram"></a>
+            
+        </div>
+        <div class="heart">
+            <p>Made by <i class="fa-solid fa-heart"></i> Shah Faisal</p>
+        </div>
+
+
+    </section>
+
+
+</body>
+
+</html>
